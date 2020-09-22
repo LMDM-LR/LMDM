@@ -5,17 +5,28 @@ body{
 
 .header{
     background-color:#7EA8BE !important;
-    text-decoration: none !important;
+
     color:#000000 !important;
     
 }
 .team{
     color:#000000 !important;
+    background-color: white;
+    border-radius: 15px;
+    padding: 8px 15px 8px 15px;
 }
 #craft{
     padding-left:0px;
     padding-right:0px;
 
+}
+#current{
+    text-decoration: none !important;
+    color:black;
+    text-decoration:underline !important ;
+    background-color: white;
+    border-radius: 15px;
+    padding: 8px 15px 8px 15px;
 }
 .img-fluid{
     padding: 2%;
