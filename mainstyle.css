@@ -23,6 +23,13 @@ body{
     margin-bottom: 20px;
     margin-top: auto;
 }
+#pic1{
+    padding-right:0px;
+
+}
+#pic2{
+    padding-left:0px;
+}
 
 #footer{
     background-color:#7EA8BE !important;
@@ -43,4 +50,7 @@ body{
     max-width: 60%;
     max-height: 50%;
     justify-content: center;
+}
+.lightbox-overlay{
+    background-color: black;
 }
