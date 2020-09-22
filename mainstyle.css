@@ -34,6 +34,9 @@ body{
 .modal-content{
     background-color: black;
 }
+.modal-footer{
+    color:white;
+}
 .close{
     color:white
 }
