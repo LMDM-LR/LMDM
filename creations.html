@@ -10,8 +10,11 @@
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/66b4afc049.js" crossorigin="anonymous"></script>
     <!-- google fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Roboto:wght@100&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!--ekko-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
     <!-- main css-->
     <link rel="stylesheet" href="mainstyle.css">
 </head>
@@ -75,25 +78,25 @@
                 </a>
             </div>
             <div class="col-5 col-sm-3 col-md-4 px-0">
-                <a href="img/PROD.jpg">
+                <a href="img/PROD.jpg" data-toggle="lightbox" data-gallery="example-gallery" >
                     <img src="img/PROD.jpg" class="img-fluid" alt="MAX">
                 </a>
-                <a href="img/PROD2.jpg">
+                <a href="img/PROD2.jpg" data-toggle="lightbox" data-gallery="example-gallery" >
                     <img src="img/PROD2.jpg" class="img-fluid" alt="MAX">
                 </a>
-                <a href="img/MAX.jpg">
+                <a href="img/MAX.jpg" data-toggle="lightbox" data-gallery="example-gallery" >
                     <img src="img/MAX.jpg" class="img-fluid" alt="MAX">
                 </a>
-                <a href="img/TOM.jpg">
+                <a href="img/TOM.jpg" data-toggle="lightbox" data-gallery="example-gallery" >
                     <img src="img/TOM.jpg" class="img-fluid" alt="MAX">
                 </a>
-                <a href="img/IMG7.jpg">
+                <a href="img/IMG7.jpg" data-toggle="lightbox" data-gallery="example-gallery" >
                     <img src="img/IMG7.jpg" class="img-fluid" alt="MAX">
                 </a>
-                <a href="img/IMG3.jpg">
+                <a href="img/IMG3.jpg" data-toggle="lightbox" data-gallery="example-gallery" >
                     <img src="img/IMG3.jpg" class="img-fluid" alt="MAX">
                 </a>
-                <a href="img/IMG4.jpg">
+                <a href="img/IMG4.jpg" data-toggle="lightbox" data-gallery="example-gallery" >
                     <img src="img/IMG4.jpg" class="img-fluid" alt="MAX">
                 </a>
             </div>
@@ -120,11 +123,14 @@
         </div> 
     </div>
 
-
     <!--jquery-->
     <script src="./js/jquery-3.5.1.min.js"></script>
     <!--bootstrap js-->
     <script src="./js/bootstrap.min.js"></script>
+    <!--main js-->
+    <script src="./mainjs.js"></script>
+    <!--ekko js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
 </body>
 
 </html>
