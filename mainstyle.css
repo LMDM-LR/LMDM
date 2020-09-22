@@ -12,14 +12,16 @@ body{
 .team{
     color:#000000 !important;
 }
-.container{
-    max-width:100%;
+#craft{
+    padding-left:0px;
+    padding-right:0px;
 
 }
 .img-fluid{
     padding: 2%;
     border-radius: 5px;
-    margin-bottom: 5%;
+    margin-bottom: 20px;
+    margin-top: auto;
 }
 
 #footer{
