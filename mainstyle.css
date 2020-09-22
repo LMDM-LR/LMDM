@@ -14,12 +14,11 @@ body{
 }
 
 .img-fluid{
-    padding: 4px;
+    padding: 5%;
 }
 #footer{
     background-color:#7EA8BE !important;
     color:#000000 !important;
-    text-decoration:
 }
 #facebook:hover{
     text-decoration: none;
