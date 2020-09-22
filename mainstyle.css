@@ -20,12 +20,11 @@ body{
 .img-fluid{
     padding: 2%;
     border-radius: 5px;
-    margin-bottom: 20px;
-    margin-top: auto;
+   
 }
 #pic1{
     padding-right:0px;
-
+    padding-bottom:0px;
 }
 #pic2{
     padding-left:0px;
