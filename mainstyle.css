@@ -12,10 +12,17 @@ body{
 .team{
     color:#000000 !important;
 }
-
-.img-fluid{
-    padding: 5%;
+.container{
+    max-width:90%;
 }
+.img-fluid{
+    padding: 2%;
+    border:1px solid lightslategrey;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    background-color: lightslategrey;
+}
+
 #footer{
     background-color:#7EA8BE !important;
     color:#000000 !important;
