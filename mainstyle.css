@@ -19,8 +19,7 @@ body{
 }
 .img-fluid{
     padding: 2%;
-    border-radius: 5px;
-   
+    border-radius:12px;
 }
 #pic1{
     padding-right:0px;
@@ -29,7 +28,15 @@ body{
 #pic2{
     padding-left:0px;
 }
-
+.ekko-lightbox{
+    background-color: black
+}
+.modal-content{
+    background-color: black;
+}
+.close{
+    color:white
+}
 #footer{
     background-color:#7EA8BE !important;
     color:#000000 !important;
