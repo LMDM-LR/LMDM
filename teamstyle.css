@@ -1,82 +1,106 @@
-body{
+html,
+body {
+    overflow-x: hidden;
+}
+
+body {
     font-family: 'Inconsolata', monospace;
+    position: relative
 }
 
 
-.header{
-    background-color:#7EA8BE !important;
 
-    color:#000000 !important;
-    
+.header {
+    background-color: #7EA8BE !important;
+
+    color: #000000 !important;
+
 }
-.team{
-    color:#000000 !important;
+
+.team {
+    color: #000000 !important;
 
     border-radius: 15px;
     padding: 8px 15px 8px 15px;
 }
-#craft{
-    padding-left:0px;
-    padding-right:0px;
+
+#craft {
+    padding-left: 0px;
+    padding-right: 0px;
 
 }
-#current{
+
+#current {
     text-decoration: none !important;
-    color:black;
-    text-decoration:underline !important ;
+    color: black;
+    text-decoration: underline !important;
 
     border-radius: 15px;
     padding: 8px 15px 8px 15px;
 }
-.form{
+
+.form {
     width: max-content !important;
 }
-.img-fluid{
+
+.img-fluid {
     padding: 2%;
-    border-radius:12px;
+    border-radius: 12px;
 }
-#pic1{
-    padding-right:0px;
-    padding-left:0px;
-    padding-bottom:0px;
+
+#pic1 {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
 }
-#pic2{
-    padding-left:0px;
+
+#pic2 {
+    padding-left: 0px;
 }
-.ekko-lightbox{
+
+.ekko-lightbox {
     background-color: rgb(0, 0, 0);
 }
-.modal-content{
+
+.modal-content {
     background-color: rgb(255, 255, 255)43, 222, 222);
     width: 100%;
 }
-.modal-footer{
-    color:rgb(139, 129, 129);
-    border:none;
+
+.modal-footer {
+    color: rgb(139, 129, 129);
+    border: none;
 }
-.close{
-    color:white
+
+.close {
+    color: white
 }
-#footer{
-    background-color:#7EA8BE !important;
-    color:#000000 !important;
+
+#footer {
+    background-color: #7EA8BE !important;
+    color: #000000 !important;
 }
-#facebook:hover{
+
+#facebook:hover {
     text-decoration: none;
 }
-#youtube{
-    color:#ff1a1a;
-    
+
+#youtube {
+    color: #ff1a1a;
+
 }
-#youtube:hover{
-    color:#ff4d4d !important;
+
+#youtube:hover {
+    color: #ff4d4d !important;
     text-decoration: none;
 }
-#carouselExampleControls{
+
+#carouselExampleControls {
     max-width: 60%;
     max-height: 50%;
     justify-content: center;
 }
-.lightbox-overlay{
+
+.lightbox-overlay {
     background-color: black;
 }
