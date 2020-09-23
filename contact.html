@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Roboto:wght@100&display=swap"
         rel="stylesheet">
     <!-- main css-->
-    <link rel="stylesheet" href="mainstyle.css">
+    <link rel="stylesheet" href="contactstyle.css">
 </head>
 
 <body>
@@ -44,53 +44,50 @@
         </div>
     </div>
     <!--Section-->
-    <div class="container my-5 py-3">
+    <div class="container justify-content-center my-5 py-3" id="craft">
+        <div class="row m-5">
+            <h3>
+                Contactez-nous
+            </h3>
+        </div>
         <div class="row justify-content-around align-items-center">
-            <div class="col-12 order-2 order-md-1 col-sm-12 col-md-6 my-4" id="pic1">
-                <img src="img/IMG3.jpg" class="img-fluid" alt="MAX"/>
+            <div class="col-12 order-2 order-md-1 col-sm-12 col-md-6 " id="pic">
+                <img src="img/IMG3.jpg" class="img-fluid" alt="MAX" />
             </div>
-            <div class="col-12 order-1 order-md-2 col-sm-12 col-md-5 my-4 ">
-                    <div class="row flex-column align-items-center">
-                        <div class="row">
-                            <h1>Contactez-nous</h1>
-                        </div>
-                        <form action="https://formspree.io/xgepeagy" method="post">
-                            <div>
-                                <label for="name">Nom:</label> 
-                            </div>
-                            <div>
-                                <input type="text" id="name" name="Nom">
-                            </div>
-                            <div>
-                                <label for="mail">adresse mail:</label>
-                            </div>
-                            <div>
-                                <input type="email" id="mail" name="user_mail">
-                            </div>
-                            <div>
-                                <label for="msg">Message:</label> 
-                            </div>
-                            <div>
-                                <textarea id="msg" name="user_message"></textarea>
-                            </div>
-                            <div class="button">
-                                <button type="submit" onclick="sendData({test:'ok'})">Envoyer le message</button>
-                            </div>
-                        
-                        </form>
+
+            <div class="col-12 order-1 order-md-2 col-sm-12 col-md-5 d-flex justify-content-center">
+                <form action="https://formspree.io/xgepeagy" method="post">
+                    <div class="form-group">
+                        <label for="inputdefault">Nom:</label>
+                        <input class="form-control" type="text">
                     </div>
+                    <div class="form-group">
+                        <label for="inputdefault">Adresse mail:</label>
+                        <input class="form-control" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Comment:</label>
+                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                    </div>
+                    <div class="button d-flex justify-content-center my-2">
+                        <button type="submit" onclick="sendData({test:'ok'})">Envoyer le message</button>
+                    </div>
+
+                </form>
             </div>
+
         </div>
     </div>
     <!--footer-->
-    <div id="footer"class="container-fluid d-flex justify-content-center align-items-center bg-secondary flex-wrap ">
-        <div class="col-12 sol-sm-12 col-md-12 far fa-copyright mt-5 d-flex justify-content-center text-nowrap">2020 Tout droit reservés</div>    
+    <div id="footer" class="container-fluid d-flex justify-content-center align-items-center bg-secondary flex-wrap ">
+        <div class="col-12 sol-sm-12 col-md-12 far fa-copyright mt-5 d-flex justify-content-center text-nowrap">2020
+            Tout droit reservés</div>
         <div class="col-2 sol-sm-2 col-md-1 d-flex justify-content-center">
             <a href="https://fr-fr.facebook.com" class="fab fa-facebook fa-2x  m-3" id="facebook"></a>
         </div>
         <div class="col-2 sol-sm-2 col-md-1 d-flex justify-content-center">
             <a href="https://www.youtube.com" class="fab fa-youtube fa-2x  m-3" id="youtube"></a>
-        </div> 
+        </div>
     </div>
 
 

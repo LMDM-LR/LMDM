@@ -28,35 +28,19 @@ body{
     border-radius: 15px;
     padding: 8px 15px 8px 15px;
 }
-.form{
-    width: max-content !important;
+.form-group{
+    padding:0px;
 }
 .img-fluid{
     padding: 2%;
     border-radius:12px;
 }
-#pic1{
+#pic{
     padding-right:0px;
     padding-left:0px;
     padding-bottom:0px;
 }
-#pic2{
-    padding-left:0px;
-}
-.ekko-lightbox{
-    background-color: rgb(0, 0, 0);
-}
-.modal-content{
-    background-color: rgb(255, 255, 255)43, 222, 222);
-    width: 100%;
-}
-.modal-footer{
-    color:rgb(139, 129, 129);
-    border:none;
-}
-.close{
-    color:white
-}
+
 #footer{
     background-color:#7EA8BE !important;
     color:#000000 !important;
@@ -66,7 +50,6 @@ body{
 }
 #youtube{
     color:#ff1a1a;
-    
 }
 #youtube:hover{
     color:#ff4d4d !important;
