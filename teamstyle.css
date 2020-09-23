@@ -39,19 +39,11 @@ body {
     padding: 8px 15px 8px 15px;
 }
 
-.form {
-    width: max-content !important;
-}
-
 .img-fluid {
-    margin:5px;
-    border-radius: 5px;
+    padding: 4px;
+    border-radius: 8px;
 }
 
-
-.close {
-    color: white
-}
 
 #footer {
     background-color: #7EA8BE !important;
@@ -70,14 +62,4 @@ body {
 #youtube:hover {
     color: #ff4d4d !important;
     text-decoration: none;
-}
-
-#carouselExampleControls {
-    max-width: 60%;
-    max-height: 50%;
-    justify-content: center;
-}
-
-.lightbox-overlay {
-    background-color: black;
 }
