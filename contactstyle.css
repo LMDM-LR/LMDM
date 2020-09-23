@@ -11,7 +11,7 @@ body {
 
 .header {
     background-color: #7EA8BE !important;
-    max-height: 160px;
+    max-height: 220px;
     color: #000000 !important;
 
 }
@@ -59,7 +59,7 @@ div.scrollmenu {
 }
 
 .img-fluid {
-    margin: 4px;
+    padding: 4px;
     border-radius:5px;
 }
 
