@@ -12,6 +12,7 @@ body {
 
 .header {
     background-color: #7EA8BE !important;
+    max-height: 220px;
 
     color: #000000 !important;
 
@@ -26,7 +27,7 @@ div.scrollmenu {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px;
+    padding: 0x;
     text-decoration: none;
   }
   
