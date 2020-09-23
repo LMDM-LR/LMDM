@@ -44,33 +44,10 @@ body {
 }
 
 .img-fluid {
-    padding: 2%;
-    border-radius: 12px;
+    margin:5px;
+    border-radius: 5px;
 }
 
-#pic1 {
-    padding-right: 0px;
-    padding-left: 0px;
-    padding-bottom: 0px;
-}
-
-#pic2 {
-    padding-left: 0px;
-}
-
-.ekko-lightbox {
-    background-color: rgb(0, 0, 0);
-}
-
-.modal-content {
-    background-color: rgb(255, 255, 255)43, 222, 222);
-    width: 100%;
-}
-
-.modal-footer {
-    color: rgb(139, 129, 129);
-    border: none;
-}
 
 .close {
     color: white

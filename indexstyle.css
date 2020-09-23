@@ -34,7 +34,6 @@ body {
     text-decoration: none !important;
     color: black;
     text-decoration: underline !important;
-
     border-radius: 15px;
     padding: 8px 15px 8px 15px;
 }
@@ -44,18 +43,19 @@ body {
 }
 
 .img-fluid {
-    padding: 2%;
-    border-radius: 12px;
+    padding: 4px;
+    border-radius: 8px;
 }
 
-#pic1 {
-    padding-right: 0px;
-    padding-left: 0px;
-    padding-bottom: 0px;
+#col1 {
+    margin:5px 0px 5px 0px;
+    padding:0px;
+    border-radius: 8px;
 }
 
-#pic2 {
-    padding-left: 0px;
+#col2 {
+    margin:5px 0px 5px 0px;
+    padding:0px;
 }
 
 .ekko-lightbox {
@@ -63,15 +63,21 @@ body {
 }
 
 .modal-content {
-    background-color: rgb(255, 255, 255)43, 222, 222);
+    background-color:black;
     width: 100%;
+    border:none;
 }
-
+.modal-body{
+    padding:0px;
+}
 .modal-footer {
-    color: rgb(139, 129, 129);
+   
+    color: rgb(255, 255, 255);
     border: none;
 }
-
+.modal-dialog{
+    margin:.2rem;
+}
 .close {
     color: white
 }
