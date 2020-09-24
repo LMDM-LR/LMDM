@@ -19,6 +19,7 @@ div.scrollmenu {
     background-color: #7EA8BE;
     overflow:auto;
     white-space: nowrap;
+
   }
   
   div.scrollmenu a {
@@ -26,7 +27,7 @@ div.scrollmenu {
     color: black;
     text-align: center;
     text-decoration: none;
-
+    overflow-x: scroll;
   }
 #contactMenu{
     text-decoration:underline;
