@@ -10,7 +10,7 @@ body {
 
 
 .header {
-    background-color: #00a6ff !important;
+    background-color: #7EA8BE !important;
     max-height: 220px;
     color: #000000 !important;
 
@@ -27,7 +27,7 @@ div.scrollmenu {
     color: black;
     text-align: center;
     text-decoration: none;
-    overflow-x: scroll;
+  
   }
 #contactMenu{
     text-decoration:underline;
