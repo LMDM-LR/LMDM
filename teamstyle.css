@@ -24,7 +24,7 @@ div.scrollmenu {
   
   div.scrollmenu a {
     display: inline-block;
-    color: white;
+    color: black;
     text-align: center;
     text-decoration: none;
 
@@ -34,9 +34,13 @@ div.scrollmenu {
     text-decoration: underline;
  
   }
+#teamMenu{
+    
+}
   #teamMenu{
     padding-left:20px !important;
     padding-right:20px;
+    text-decoration: underline;
 }
 #creaMenu{
     margin-left:100px;
