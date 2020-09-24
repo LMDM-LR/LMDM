@@ -63,7 +63,8 @@
                         <textarea class="form-control" rows="5" id="comment"></textarea>
                     </div>
                     <div class="button d-flex justify-content-center my-3">
-                        <button type="button" class="btn btn-outline-secondary" onclick="sendData({test:'ok'})">Envoyer le message</button>
+                        <button type="submit" class="btn btn-outline-secondary" id="formbtn" onclick="sendData({test:'ok'})">Envoyer le message</button>
+                        <input type="hidden" name="_next" value="team.html" />
                     </div>
 
                 </form>

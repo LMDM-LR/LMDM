@@ -19,7 +19,7 @@ body {
 }
 div.scrollmenu {
     background-color: #7EA8BE;
-    overflow: auto;
+    overflow:auto;
     white-space: nowrap;
   }
   
@@ -27,13 +27,21 @@ div.scrollmenu {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 0x;
     text-decoration: none;
+
   }
   
   div.scrollmenu a:hover {
-    background-color: #777;
+    text-decoration: underline;
+ 
   }
+  #teamMenu{
+    padding-left:20px !important;
+    padding-right:20px;
+}
+#creaMenu{
+    margin-left:100px;
+}
 .team {
     color: #000000 !important;
 
