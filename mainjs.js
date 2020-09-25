@@ -3,6 +3,3 @@ $(document).on('click', '[data-toggle="lightbox"]', function(event) {
     $(this).ekkoLightbox();
   });
 
-$(document).on('click', '[id="formbtn"]', function(event) {
-  event.window.open("index.html")
-});

@@ -17,39 +17,37 @@ body {
     color: #000000 !important;
 
 }
+
 div.scrollmenu {
     background-color: #7EA8BE;
-    overflow:auto;
+    overflow: auto;
     white-space: nowrap;
-  }
-  
-  div.scrollmenu a {
+}
+
+div.scrollmenu a {
     display: inline-block;
     color: black;
     text-align: center;
     text-decoration: none;
 
-  }
-  
-  div.scrollmenu a:hover {
-    text-decoration: underline;
- 
-  }
-  #creaMenu{
-      text-decoration:underline;
-  }
-  #teamMenu{
-    padding-left:20px !important;
-    padding-right:20px;
 }
-#creaMenu{
-    margin-left:100px;
-}
-.team {
-    color: #000000 !important;
 
-    border-radius: 15px;
-    padding: 8px 15px 8px 15px;
+div.scrollmenu a:hover {
+    text-decoration: underline;
+
+}
+
+#creaMenu {
+    text-decoration: underline;
+}
+
+#teamMenu {
+    padding-left: 20px !important;
+    padding-right: 20px;
+}
+
+#creaMenu {
+    margin-left: 100px;
 }
 
 #craft {
@@ -66,24 +64,20 @@ div.scrollmenu {
     padding: 8px 15px 8px 15px;
 }
 
-.form {
-    width: max-content !important;
-}
-
 .img-fluid {
     padding: 4px;
     border-radius: 8px;
 }
 
 #col1 {
-    margin:5px 0px 5px 0px;
-    padding:0px;
+    margin: 5px 0px 5px 0px;
+    padding: 0px;
     border-radius: 8px;
 }
 
 #col2 {
-    margin:5px 0px 5px 0px;
-    padding:0px;
+    margin: 5px 0px 5px 0px;
+    padding: 0px;
 }
 
 .ekko-lightbox {
@@ -91,25 +85,24 @@ div.scrollmenu {
 }
 
 .modal-content {
-    background-color:black;
+    background-color: black;
     width: 100%;
-    border:none;
+    border: none;
 }
-.modal-body{
-    padding:0px;
+
+.modal-body {
+    padding: 0px;
 }
+
 .modal-footer {
-   
+
     color: rgb(255, 255, 255);
     border: none;
 }
-.modal-dialog{
-    margin:.2rem;
-}
-.close {
-    color: white
-}
 
+.modal-dialog {
+    margin: .2rem;
+}
 #footer {
     background-color: #7EA8BE !important;
     color: #000000 !important;
@@ -129,12 +122,3 @@ div.scrollmenu {
     text-decoration: none;
 }
 
-#carouselExampleControls {
-    max-width: 60%;
-    max-height: 50%;
-    justify-content: center;
-}
-
-.lightbox-overlay {
-    background-color: black;
-}
