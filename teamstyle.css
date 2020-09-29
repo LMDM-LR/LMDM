@@ -49,6 +49,10 @@ body {
         color: #000000 !important;
         height:160px !important;
     }
+    .img-fluid {
+        padding:0px 4px 0px 4px;
+        border-radius: 8px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -83,12 +87,15 @@ body {
     
     }
     #row1{
-        margin:5px 0px 0px 15px !important;
+        margin:5px 0px 24px 15px !important;
         
     }
-    #row2{
-        margin-top: 0px; 
+    .img-fluid {
+        padding: 4px;
+        border-radius: 8px;
+        margin: 48px 0px 5px 0px;
     }
+   
     #footer {
         background-color: #7EA8BE !important;
         color: #000000 !important;
