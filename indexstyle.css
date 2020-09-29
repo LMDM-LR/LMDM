@@ -1,19 +1,107 @@
 html,
 body {
     overflow-x: hidden;
-}
-
-body {
     font-family: 'Inconsolata', monospace;
     position: relative
 }
 
+@media only screen and (max-width:600px) {
+    #creaMenu {
+        text-decoration: underline;
+        margin-left: 165px;
+        background-color: burlywood;
+        border-radius: 50px;
+        padding: 8px 16px 8px 16px;
+        box-shadow: 10px 5px 5px grey;
+    }
+    #teamMenu {
+        margin-left: 5px;
+        background-color: burlywood;
+        border-radius: 50px;
+        padding: 8px 16px 8px 16px;
+        box-shadow: 1px 5px 5px grey;
+
+    }
+    #contactMenu {
+        margin-left: 5px;
+        margin-right: 5px;
+        background-color: burlywood;
+        border-radius: 50px;
+        padding: 8px 16px 8px 16px;
+        box-shadow: 1px 5px 5px grey;
+    }
+    #craft{
+        margin:0px 0px 0px 0px !important;
+        padding:0px 0px 0px 0px !important;
+        
+    }
+    #row1{
+        margin:15px 0px 0px 15px !important;
+    }
+    #col1 {
+        margin: 5px 0px 5px 0px;
+        padding: 0px;
+    }
+    
+    #col2 {
+        margin: 5px 0px 5px 0px;
+        padding: 0px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #creaMenu {
+        text-decoration: underline;
+        margin-left: 100px;
+        background-color: burlywood;
+        border-radius: 50px;
+        padding: 8px 16px 8px 16px;
+        box-shadow: 1px 5px 5px grey;
+    }
+    #teamMenu {
+        padding-left: 20px ;
+        margin-left: 50px;
+        background-color: burlywood;
+        border-radius: 50px;
+        padding: 8px 16px 8px 16px;
+        box-shadow: 10px 5px 5px grey;
+
+    }
+    #contactMenu {
+        margin-left: 50px;
+        background-color: burlywood;
+        border-radius: 50px;
+        padding: 8px 16px 8px 16px;
+        box-shadow: 10px 5px 5px grey;
+
+    }
+    
+    #craft {
+        padding-left: 0px;
+        padding-right: 0px;
+    
+    }
+    #row1{
+        margin:5px 0px 24px 0px;
+        
+    }
+    #col1 {
+        margin: 48px 0px 5px 0px;
+        padding: 0px;
+    }
+    
+    #col2 {
+        margin: 48px 0px 5px 0px;
+        padding: 0px;
+    }
+}
 
 
 .header {
     background-color: #7EA8BE !important;
-    max-height: 220px;
-
+    margin-top: 0px;
+    padding-top: 0px;
+    max-height: 200px;
     color: #000000 !important;
 
 }
@@ -37,47 +125,9 @@ div.scrollmenu a:hover {
 
 }
 
-#creaMenu {
-    text-decoration: underline;
-}
-
-#teamMenu {
-    padding-left: 20px !important;
-    padding-right: 20px;
-}
-
-#creaMenu {
-    margin-left: 100px;
-}
-
-#craft {
-    padding-left: 0px;
-    padding-right: 0px;
-
-}
-
-#current {
-    text-decoration: none !important;
-    color: black;
-    text-decoration: underline !important;
-    border-radius: 15px;
-    padding: 8px 15px 8px 15px;
-}
-
 .img-fluid {
     padding: 4px;
     border-radius: 8px;
-}
-
-#col1 {
-    margin: 5px 0px 5px 0px;
-    padding: 0px;
-    border-radius: 8px;
-}
-
-#col2 {
-    margin: 5px 0px 5px 0px;
-    padding: 0px;
 }
 
 .ekko-lightbox {

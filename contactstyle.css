@@ -1,9 +1,6 @@
 html,
 body {
     overflow-x: hidden;
-}
-
-body {
     font-family: 'Inconsolata', monospace;
     position: relative
 }
@@ -41,6 +38,14 @@ body {
     #row1{
         margin:15px 0px 0px 15px;
     }
+    #form1 {
+        width: 80%;
+    }
+    
+    .img-fluid {
+        padding: 4px;
+        border-radius: 8px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -77,6 +82,16 @@ body {
     #row1{
         margin:5px 0px 24px 0px;
         
+    }
+    #form1 {
+        width: 80%;
+        margin: 48px 0px 5px 0px;
+    }
+    
+    .img-fluid {
+        padding: 4px;
+        border-radius: 8px;
+        margin: 48px 0px 5px 0px;
     }
 }
 
@@ -121,24 +136,6 @@ div.scrollmenu a:hover {
 
     border-radius: 15px;
     padding: 8px 15px 8px 15px;
-}
-
-#current {
-    text-decoration: none !important;
-    color: black;
-    text-decoration: underline !important;
-
-    border-radius: 15px;
-    padding: 8px 15px 8px 15px;
-}
-
-#form1 {
-    width: 80%;
-}
-
-.img-fluid {
-    padding: 4px;
-    border-radius: 5px;
 }
 
 #footer {
