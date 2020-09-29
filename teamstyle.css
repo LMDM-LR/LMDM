@@ -39,7 +39,10 @@ body {
         
     }
     #row1{
-        margin:15px 0px 0px 15px;
+        margin:15px 0px 0px 15px ;
+    }
+    #row2{
+        margin-top: 8px; 
     }
     #footer {
         background-color: #7EA8BE !important;
@@ -80,8 +83,11 @@ body {
     
     }
     #row1{
-        margin:5px 0px 24px 0px;
+        margin:5px 0px 0px 15px !important;
         
+    }
+    #row2{
+        margin-top: 0px; 
     }
     #footer {
         background-color: #7EA8BE !important;
@@ -89,11 +95,11 @@ body {
         height:130px !important;
     }
 }
-
-
 .header {
     background-color: #7EA8BE !important;
-    max-height: 220px;
+    margin-top: 0px;
+    padding-top: 0px;
+    max-height: 200px;
     color: #000000 !important;
 
 }
@@ -123,7 +129,7 @@ div.scrollmenu {
     padding: 8px 15px 8px 15px;
 }
 .img-fluid {
-    padding: 4px;
+    padding:0px 4px 0px 4px;
     border-radius: 8px;
 }
 
