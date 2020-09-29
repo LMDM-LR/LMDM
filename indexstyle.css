@@ -47,6 +47,11 @@ body {
         margin: 5px 0px 5px 0px;
         padding: 0px;
     }
+    #footer {
+        background-color: #7EA8BE !important;
+        color: #000000 !important;
+        height:160px !important;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -93,6 +98,11 @@ body {
     #col2 {
         margin: 48px 0px 5px 0px;
         padding: 0px;
+    }
+    #footer {
+        background-color: #7EA8BE !important;
+        color: #000000 !important;
+        height:130px !important;
     }
 }
 
@@ -152,10 +162,6 @@ div.scrollmenu a:hover {
 
 .modal-dialog {
     margin: .2rem;
-}
-#footer {
-    background-color: #7EA8BE !important;
-    color: #000000 !important;
 }
 
 #facebook:hover {

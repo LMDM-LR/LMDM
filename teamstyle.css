@@ -41,6 +41,11 @@ body {
     #row1{
         margin:15px 0px 0px 15px;
     }
+    #footer {
+        background-color: #7EA8BE !important;
+        color: #000000 !important;
+        height:160px !important;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -77,6 +82,11 @@ body {
     #row1{
         margin:5px 0px 24px 0px;
         
+    }
+    #footer {
+        background-color: #7EA8BE !important;
+        color: #000000 !important;
+        height:130px !important;
     }
 }
 
@@ -117,11 +127,6 @@ div.scrollmenu {
     border-radius: 8px;
 }
 
-
-#footer {
-    background-color: #7EA8BE !important;
-    color: #000000 !important;
-}
 
 #facebook:hover {
     text-decoration: none;
