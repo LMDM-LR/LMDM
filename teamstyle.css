@@ -14,7 +14,7 @@ body {
         background-color: burlywood;
         border-radius: 50px;
         padding: 8px 16px 8px 16px;
-        box-shadow: 10px 5px 5px grey;
+        box-shadow: 1px 5px 5px grey;
     }
     #teamMenu {
         text-decoration: underline;
@@ -63,7 +63,7 @@ body {
         background-color: burlywood;
         border-radius: 50px;
         padding: 8px 16px 8px 16px;
-        box-shadow: 10px 5px 5px grey;
+        box-shadow: 1px 5px 5px grey;
 
     }
     #contactMenu {
@@ -71,7 +71,7 @@ body {
         background-color: burlywood;
         border-radius: 50px;
         padding: 8px 16px 8px 16px;
-        box-shadow: 10px 5px 5px grey;
+        box-shadow: 1px 5px 5px grey;
 
     }
     #craft {
